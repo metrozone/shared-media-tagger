@@ -25,7 +25,7 @@ class Loader
      */
     public function __construct(array $config = [])
     {
-        define('SHARED_MEDIA_TAGGER', '1.1.3');
+        define('SHARED_MEDIA_TAGGER', '1.1.3.1');
 
         ob_start('ob_gzhandler');
 
